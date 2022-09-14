@@ -11,6 +11,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+	direction: rtl;
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -22,10 +23,6 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
-body {
-	line-height: 1;
-	margin: 0 15%;
 }
 ol, ul {
 	list-style: none;
@@ -41,4 +38,45 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+
+/******xs - 320px & 767px (phones)******/
+@media (min-width: 320px) and (max-width: 767px) {
+	body {
+		line-height: 1;
+		margin: 0 20px;
+	}
+}
+
+/******sm - 768px & 991px (tablets)******/
+@media (min-width: 768px) and (max-width: 991px) {
+	body {
+		line-height: 1;
+		margin: 0 40px;
+	}
+}
+
+/******md - 992px & 1199px (smallLaptops)******/
+@media (min-width: 992px) and (max-width: 1199px) {
+	body {
+		line-height: 1;
+		margin: 0 60px;
+	}
+}
+
+/******lg - 1200px and higher (wideMonitors)******/
+@media (min-width: 1200px) and (max-width: 1699px) {
+	body {
+		line-height: 1;
+		margin: 0 100px;
+	}
+}
+
+/******ex lg - 1200px and higher (wideMonitors)******/
+@media only screen and (min-width: 1700px) {
+	body {
+		line-height: 1;
+		margin: 0 130px;
+	}
 }
