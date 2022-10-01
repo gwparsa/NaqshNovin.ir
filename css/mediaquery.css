@@ -1,0 +1,172 @@
+
+
+
+/******xs - 320px & 767px (phones)******/
+@media (min-width: 320px) and (max-width: 767px) {
+
+    /* For Navigation */
+    .business-name span{
+        position: absolute;
+        top: 40px;
+        right: 20px;
+    }
+    body{
+        margin: 0 10px;
+    }
+    .navigation-items{
+        display: none;
+    }.mobile-navmenu{
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        text-align: left;
+        font-weight: 500;
+    }
+
+    /* for header */
+    header{}
+    
+    /* for footer */
+    footer{}
+
+    /* For Body */
+    body {
+		line-height: 1;
+		margin: 0 20px;
+	}
+}
+
+/******sm - 768px & 991px (tablets)******/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* For Navigation */
+    .navigation-items{
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        display: inline;
+    }.business-name{
+        margin-top: 40px;
+        font-size: 17px;
+    }.navigation-items ul li{
+        padding-right: 20px;
+    }.mobile-navmenu{
+        display: none;
+    }.nav-button{
+        display: none;
+    }
+
+    /* for header */
+    header{}
+    
+    /* for footer */
+    footer{}
+
+    /* For Body */
+    body {
+		line-height: 1;
+		margin: 0 40px;
+	}
+}
+
+/******md - 992px & 1199px (smallLaptops)******/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* For Navigation */
+    .navigation-items{
+        position: absolute;
+        top: 40px;
+        left: 60px;
+        display: inline;
+    }.business-name{
+        margin-top: 40px;
+        font-size: 18px;
+    }.navigation-items ul li{
+        padding-right: 30px;
+        font-size: 15px;
+    }.mobile-navmenu{
+        display: none;
+    }.nav-button{
+        display: none;
+    }
+
+    /* for header */
+    header{}
+
+    /* for footer */
+    footer{}
+    
+    /* For Body */
+    body {
+		line-height: 1;
+		margin: 0 60px;
+	}
+}
+
+/******lg - 1200px and higher (wideMonitors)******/
+@media (min-width: 1200px) and (max-width: 1699px) {
+
+    /* For Navigation */
+    .navigation-items{
+        position: absolute;
+        top: 40px;
+        left: 100px;
+        display: inline;
+    }.business-name{
+        margin-top: 40px;
+        font-size: 22px;
+    }.navigation-items ul li{
+        padding-right: 40px;
+        font-size: 16px;
+    }.mobile-navmenu{
+        display: none;
+    }.nav-button{
+        display: none;
+    }
+
+    /* for header */
+    header{}
+
+    /* for footer */
+    footer{}
+    
+    /* For Body */
+    body {
+		line-height: 1;
+		margin: 0 100px;
+	}
+}
+
+/******ex lg - 1200px and higher (wideMonitors)******/
+@media only screen and (min-width: 1700px) {
+
+    /* For Navigation */
+    .navigation-items{
+        position: absolute;
+        top: 40px;
+        left: 130px;
+        display: inline;
+    }.business-name{
+        margin-top: 40px;
+        font-size: 24px;
+    }.navigation-items ul li{
+        padding-right: 45px;
+        font-size: 16px;
+    }.mobile-navmenu{
+        display: none;
+    }.nav-button{
+        display: none;
+    }
+
+    /* for header */
+    header{}
+
+    /* for footer */
+    footer{}
+    
+    /* For Body */
+    body {
+		line-height: 1;
+		margin: 0 130px;
+	}
+}
