@@ -5,136 +5,53 @@
 
 }.business-name{
     font-size: 14px;
+    color: #000c17;
 
 }.navigation-items{
     position: absolute;
     font-weight: 800;
 }.navigation-items ul{
 
-
 }.navigation-items ul li{
     display: inline;
 }.navigation-items ul li a{
     text-decoration: none;
+    color: #000c17;
 }.mobile-navmenu{
-    background-color: rgb(227, 227, 227);
+    background-color: #f4f4f4;
+    border-radius: 6px;
     position: absolute;
+    padding: 10px;
 }.mobile-navmenu ul li{
     padding: 9px 3px;
 }.mobile-navmenu ul li a{
     text-decoration: none;
     padding: 10px;
+    font-weight: 800;
+    font-size: 13px;
+    color: #000c17;
+}.navigation-items ul li a:hover::before{
+    content: '';
+    background: #B2FF59;
+    color: #B2FF59;
+    width: 5%;
+    height: 25%;
+    position: absolute;
+    border-radius: 3px;
+    bottom: -2px;
+    z-index: -1;
+    margin-right: auto;
 }.nav-button{
     text-decoration: none;
     position: absolute;
     top: 30px;
     left: 10px;
-    transform: scale(.75);
+    transform: scale(.70);
 }.nav-button span{
     margin: 0 .7px;
-    background-color: #000;
-    color: #000;
+    background-color: #000c17;
+    color: #000c17;
     width: 7px;
     height: 1px;
     border-radius: 2px;
-}
-
-/******xs - 320px & 767px (phones)******/
-@media (min-width: 320px) and (max-width: 767px) {
-    .business-name span{
-        position: absolute;
-        top: 40px;
-        right: 20px;
-    }
-    body{
-        margin: 0 10px;
-    }
-    .navigation-items{
-        display: none;
-    }.mobile-navmenu{
-        position: absolute;
-        top: 50px;
-        left: 10px;
-        text-align: left;
-        font-weight: 500;
-    }
-}
-
-/******sm - 768px & 991px (tablets)******/
-@media (min-width: 768px) and (max-width: 991px) {
-    .navigation-items{
-        position: absolute;
-        top: 40px;
-        left: 40px;
-        display: inline;
-    }.business-name{
-        margin-top: 40px;
-        font-size: 17px;
-    }.navigation-items ul li{
-        padding-right: 20px;
-    }.mobile-navmenu{
-        display: none;
-    }.nav-button{
-        display: none;
-    }
-}
-
-/******md - 992px & 1199px (smallLaptops)******/
-@media (min-width: 992px) and (max-width: 1199px) {
-    .navigation-items{
-        position: absolute;
-        top: 40px;
-        left: 60px;
-        display: inline;
-    }.business-name{
-        margin-top: 40px;
-        font-size: 18px;
-    }.navigation-items ul li{
-        padding-right: 30px;
-        font-size: 15px;
-    }.mobile-navmenu{
-        display: none;
-    }.nav-button{
-        display: none;
-    }
-}
-
-/******lg - 1200px and higher (wideMonitors)******/
-@media (min-width: 1200px) and (max-width: 1699px) {
-    .navigation-items{
-        position: absolute;
-        top: 40px;
-        left: 100px;
-        display: inline;
-    }.business-name{
-        margin-top: 40px;
-        font-size: 22px;
-    }.navigation-items ul li{
-        padding-right: 40px;
-        font-size: 16px;
-    }.mobile-navmenu{
-        display: none;
-    }.nav-button{
-        display: none;
-    }
-}
-
-/******ex lg - 1200px and higher (wideMonitors)******/
-@media only screen and (min-width: 1700px) {
-    .navigation-items{
-        position: absolute;
-        top: 40px;
-        left: 130px;
-        display: inline;
-    }.business-name{
-        margin-top: 40px;
-        font-size: 24px;
-    }.navigation-items ul li{
-        padding-right: 45px;
-        font-size: 16px;
-    }.mobile-navmenu{
-        display: none;
-    }.nav-button{
-        display: none;
-    }
 }
