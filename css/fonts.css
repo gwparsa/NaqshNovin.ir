@@ -2,6 +2,11 @@
 body {
 	font-family: dana  !important;
 }
+@supports (font-variation-settings: normal){
+	body {
+		font-family: dana-v  !important;
+	}
+}
 h1, a, p, h3, h4, h5, h6,input {
 	font-family: dana !important;
 }
