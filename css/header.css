@@ -1,0 +1,15 @@
+.header{
+    margin-top: 340px;
+}.image-section{
+    display: inline;
+    float: left;
+    margin-top: -150px;
+}.text-section{
+    display: inline;
+}.text-section h1{
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 15px;
+}.text-section p{
+
+}
