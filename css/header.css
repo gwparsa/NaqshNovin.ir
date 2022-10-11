@@ -9,7 +9,8 @@
 }.text-section h1{
     font-weight: 800;
     font-size: 40px;
-    margin-bottom: 15px;
+    margin-bottom: 29px;
 }.text-section p{
-
+    max-width: 700px;
+    line-height: 1.35;
 }
